@@ -29,11 +29,6 @@ def sign_in(meetingid, meetingpswd):
     magic.click()
     magic.write(meetingid)
 	
-    meeting_id_btn2 =  magic.locateCenterOnScreen('core\meeting_id.png')
-    magic.moveTo(meeting_id_btn2)
-    magic.click()
-    magic.write(meetingid)
-	
     media_btn = magic.locateAllOnScreen('core\media_btn.png')
     for btn in media_btn:
         magic.moveTo(btn)
@@ -106,6 +101,12 @@ def noid():
         while isStarted == False:
                 if datetime.now().hour == int(i[1].split(':')[0]) and datetime.now().minute == int(i[1].split(':')[1]):
                     webbrowser.open(i[0])
+                    time.sleep(10)
+                    magic.press('tab')
+                    magic.press('enter')
+                    magic.press('tab')
+                    magic.press('enter')
+                    isStarted = True
                     isStarted = True
 
 
