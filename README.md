@@ -39,9 +39,19 @@ If you have a meeting ID and a meeting password, ignore the file named “settin
 
 <img src="https://media.giphy.com/media/FVDT8HDsDKs3ageX14/giphy.gif" width="1000" height="526" />
 
- 
+## Step 6- Cross-Checking Zoom application settings
 
-## Step 6- Running the Code 
+Before running the code, the last thing that you have to ensure is that your Zoom applications settings should match the following settings.
+
+<img src="https://media.giphy.com/media/LjiPPEVYVhKoEli7No/giphy.gif" width="1000" height="526" />
+
+Ensure that boxes which are ticked in my device are ticked in yours and those which are unticked are unticked in your device too. Then go to Keyboard shortcuts and restore to default.
+
+<img src="https://media.giphy.com/media/ApqwNcG8vX5vkDYEJp/giphy.gif" width="1000" height="526" />
+
+After restoring, go to "End Meeting" and click on the space where "Alt+Q" is written. Hit the "Q" key on your keyboard and hit enter.
+
+## Step 7- Running the Code 
 
 Now, the only thing left to do is to run the code. Inside the bar on the file explorer, type “cmd” and hit enter. Type, “python main.py” and hit enter. 
 
